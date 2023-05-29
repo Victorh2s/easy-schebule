@@ -1,0 +1,40 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`should match to snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.c1 {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #5300FF;
+  border-top-color: #FFFFFF;
+  border-radius: 50%;
+  -webkit-animation: cilQsd 1s infinite linear;
+  animation: cilQsd 1s infinite linear;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    />
+  </div>
+   
+</div>
+`;

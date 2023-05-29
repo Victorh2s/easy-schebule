@@ -1,23 +1,32 @@
 export const defaultTheme = {
-  Light:{
-    button: "#5300FF",
-    "font-color":"#091E42",
-    "logo-color":"#05543A",
-    "pendente-color":"#F73A4E",
-    "fazendo-color":"#FF911C",
-    "feito-color":"#2AE850",
-    "background-color":"#FFFFFF",
-    "link-color":"#15A89F"
+  Light: {
+    button: '#5300FF',
+    success: '#2AAA50',
+    error: '#D42029',
+    gray: '#A4A69F',
+    'font-color': '#FFFFFF',
+    'logo-color': '#05543A',
+    'pendente-color': '#F73A4E',
+    'fazendo-color': '#FF911C',
+    'feito-color': '#2AE850',
+    'background-color': '#0f0f0f',
+    'link-color': '#15A89F',
+    'background-form': '#171717',
+    'border-input': '#D2D2D4',
   },
-  Dark:{
-    button: "#5300FF",
-    "font-color":"#FFFFFF",
-    "logo-color":"#05543A",
-    "pendente-color":"#F73A4E",
-    "fazendo-color":"#FF911C",
-    "feito-color":"#2AE850",
-    "background-color":"#091E42",
-    "link-color":"#15A89F"
+  Dark: {
+    button: '#5300FF',
+    success: '#2AAA50',
+    error: '#D42029',
+    gray: '#A4A69F',
+    'font-color': '#0f0f0f',
+    'logo-color': '#05543A',
+    'pendente-color': '#F73A4E',
+    'fazendo-color': '#FF911C',
+    'feito-color': '#2AE850',
+    'background-color': '#FFFFFF',
+    'link-color': '#15A89F',
+    'background-form': '#EDEDEF',
+    'border-input': '#D2D2D4',
   },
-
-} as const
+} as const;

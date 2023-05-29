@@ -1,0 +1,173 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SectionHome > should match to snapshot 1`] = `
+.c0 {
+  padding: 0 7.5rem;
+  width: 100%;
+}
+
+.c1 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  height: 80vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c1 div {
+  max-width: 450px;
+}
+
+.c1 div a {
+  display: block;
+  width: 50%;
+  margin-top: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  background: #5300FF;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.c1 div a:hover {
+  background: #15A89F;
+  color: #FFFFFF;
+}
+
+.c1 img {
+  max-width: 450px;
+}
+
+.c1 div + img {
+  margin-left: 2rem;
+}
+
+@media (max-width:700px) {
+  .c0 {
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width:1100px) {
+  .c1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .c1 div {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .c1 div a {
+    display: block;
+    width: 50%;
+    margin-top: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background: #5300FF;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  .c1 img {
+    display: none;
+  }
+}
+
+@media (max-width:700px) {
+  .c1 {
+    padding: 0 0.5rem;
+  }
+
+  .c1 div {
+    width: 100%;
+  }
+
+  .c1 div h1 {
+    font-size: 1rem;
+  }
+
+  .c1 div a {
+    font-size: 1rem;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <section
+      class="c1"
+    >
+      <div>
+        <h1>
+          Sabemos como pode ser desafiador acompanhar todas as tarefas do dia a dia, tanto no trabalho quanto nas atividades pessoais. É por isso que criamos o EasySchedule: uma ferramenta intuitiva e eficiente para ajudá-lo a manter tudo sob controle.
+        </h1>
+        <a
+          href="/login"
+        >
+          Comece agora
+        </a>
+      </div>
+      <img
+        alt="img"
+        aria-label="img"
+        src="/src/assets/Complete.svg"
+      />
+    </section>
+  </div>
+   
+</div>
+`;

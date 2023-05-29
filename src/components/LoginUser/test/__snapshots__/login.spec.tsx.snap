@@ -1,0 +1,214 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`LoginUser component > should match to snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #0f0f0f;
+  padding: 2.5rem;
+  width: 100%;
+  height: 100vh;
+}
+
+.c1 {
+  background: #171717;
+  width: 720px;
+  min-height: 90vh;
+  border-radius: 2rem;
+  padding: 3.5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  box-shadow: 0px 0px 51px 7px rgba(0,0,0,0.32);
+}
+
+.c1 .form-info {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.c1 .form-info a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.c1 .form-info a h1 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-bottom: 1rem;
+}
+
+.c1 .form-info span a {
+  color: #5300FF;
+}
+
+.c1 .form-inputs {
+  width: 100%;
+}
+
+.c1 .form-inputs .status-error {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  padding: 1rem;
+  color: #D42029;
+}
+
+.c1 .form-inputs .status-success {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  padding: 1rem;
+  color: #2AAA50;
+}
+
+.c1 .form-inputs div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c1 .form-inputs div span {
+  font-size: 0.9rem;
+  color: #D42029;
+}
+
+.c1 .form-inputs label {
+  font-weight: bold;
+}
+
+.c1 .form-inputs input {
+  width: 100%;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0.6rem 0rem;
+  border-radius: 0.2rem;
+  border: 1px solid transparent;
+  background: #0f0f0f;
+  color: #FFFFFF;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.c1 .form-inputs input:focus {
+  border: 1px solid #5300FF;
+}
+
+.c2 {
+  cursor: pointer;
+  background: #5300FF !important;
+  color: #0f0f0f;
+  font-weight: bold;
+  margin-top: 2rem;
+  border: none !important;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.c2:disabled {
+  background: #A4A69F !important;
+  cursor: not-allowed;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <form
+      class="c1"
+    >
+      <div
+        class="form-info"
+      >
+        <a
+          href="/"
+        >
+          <h1>
+            EasySchebule
+          </h1>
+        </a>
+        <span>
+          Ainda não possui uma conta?
+           
+          <a
+            href="/registro"
+          >
+            <strong>
+               Clique aqui
+            </strong>
+          </a>
+           
+        </span>
+      </div>
+      <div
+        class="form-inputs"
+      >
+        <div>
+          <label
+            for="email"
+          >
+            E-mail
+          </label>
+        </div>
+        <input
+          id="email"
+          name="email"
+          type="email"
+        />
+        <div>
+          <label
+            for="password"
+          >
+            Senha
+          </label>
+        </div>
+        <input
+          id="password"
+          name="password"
+          type="password"
+        />
+        <input
+          class="c2"
+          type="submit"
+          value="Criar conta"
+        />
+      </div>
+    </form>
+  </div>
+   
+</div>
+`;

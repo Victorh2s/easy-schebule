@@ -1,0 +1,259 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ModalCreateTask > should match to snapshot 1`] = `
+.c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-animation: jgQpwH 0.2s ease-in-out;
+  animation: jgQpwH 0.2s ease-in-out;
+}
+
+.c1 {
+  background-color: #171717;
+  width: 80%;
+  height: 80%;
+  padding: 4rem;
+  border-radius: 5px;
+  -webkit-animation: jgQpwH 0.2s ease-in-out;
+  animation: jgQpwH 0.2s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+}
+
+.c1 h2 {
+  text-align: center;
+}
+
+.c1 span {
+  color: #D42029;
+}
+
+.c1 form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 form div + div {
+  margin-top: 0.2rem;
+}
+
+.c1 form div {
+  width: 100%;
+  padding: 0 10rem;
+}
+
+.c1 form div input,
+.c1 form div textarea {
+  width: 100%;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0.6rem 0rem;
+  border-radius: 0.2rem;
+  border: 1px solid transparent;
+  background: #0f0f0f;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #FFFFFF;
+}
+
+.c1 form div input:focus,
+.c1 form div textarea:focus {
+  border: 1px solid #5300FF;
+}
+
+.c1 form div textarea {
+  resize: 'none' !important;
+  height: 15vh;
+}
+
+.c1 form div select {
+  width: 100%;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0.6rem 0rem;
+  border-radius: 0.2rem;
+  border: 1px solid #D2D2D4;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #0f0f0f;
+  font-weight: bold;
+}
+
+.c1 form div select option {
+  font-weight: bold;
+}
+
+.c1 form div select:focus {
+  border: 1px solid #5300FF;
+}
+
+.c1 form div .create-task {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  background: #5300FF;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-top: 1rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.c1 form div .create-task:disabled {
+  background: #A4A69F !important;
+  cursor: not-allowed;
+}
+
+.c1 form div .create-task:hover {
+  background: #05543A;
+}
+
+.c1 .closeButton {
+  position: absolute;
+  border-radius: 0.2rem;
+  border: none;
+  top: 0;
+  right: 0;
+  padding: 0.5rem;
+  cursor: pointer;
+  background: #5300FF;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.c1 .closeButton:disabled {
+  background: #F73A4E;
+  cursor: not-allowed;
+}
+
+.c1 .closeButton:hover {
+  background: #F73A4E;
+}
+
+@media (max-width:1075px) {
+  .c1 form div {
+    padding: 0 0rem;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <h2>
+        Criar tarefa
+      </h2>
+      <form>
+        <div>
+          <input
+            name="title"
+            placeholder="Título da tarefa"
+            type="text"
+          />
+        </div>
+        <div>
+          <textarea
+            name="description"
+            placeholder="Descrição da tarefa"
+            style="resize: none;"
+          />
+        </div>
+        <div>
+          <select
+            aria-label="Selecione uma opção"
+            name="status"
+          >
+            <option
+              disabled=""
+              value=""
+            >
+              Selecione uma opção
+            </option>
+            <option
+              value="Pendente"
+            >
+              Pendente
+            </option>
+            <option
+              value="Fazendo"
+            >
+              Em andamento
+            </option>
+            <option
+              value="Feito"
+            >
+              Finalizada
+            </option>
+          </select>
+        </div>
+        <div>
+          <button
+            class="create-task"
+            type="submit"
+          >
+            Criar conta
+          </button>
+        </div>
+      </form>
+      <button
+        class="closeButton"
+      >
+        Fechar
+      </button>
+    </div>
+  </div>
+   
+</div>
+`;
